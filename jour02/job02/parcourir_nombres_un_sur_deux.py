@@ -5,7 +5,7 @@ print ("""
 
 #Attribution des variables
 
-nombres = range(0, 21, 2)
+nombres = range(0, 20 +1, 2)
 
 #Boucle
 
