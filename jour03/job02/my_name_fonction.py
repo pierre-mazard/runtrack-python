@@ -12,13 +12,14 @@ Programme d'introduction aux fonctions
 #Définition locale de fonctions : 
 
 def my_print_name (name):
-    print (""""
-Votre nom est :""", name)
+    print (f""""
+Votre nom est : {name}""")
     
 #Déclaration des variables : 
-    
-name = input("Quel est votre nom ? : ")
 
 #Corps principal du programme : 
 
-my_print_name(name)    
+my_print_name("caroline")    
+my_print_name("Sofia")
+my_print_name("Julian")
+my_print_name("Pierre")
