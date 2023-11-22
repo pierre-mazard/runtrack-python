@@ -16,7 +16,9 @@ def my_print_name (name):
 Votre nom est :""", name)
     
 #Déclaration des variables : 
+    
 name = input("Quel est votre nom ? : ")
+
 #Corps principal du programme : 
 
 my_print_name(name)    
