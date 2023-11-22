@@ -18,8 +18,10 @@ def lang (langage):
         print ("Tu es un développeur IA.")
     elif langage == str("java"):
         print ("Tu es un développeur logiciel.")
+    elif langage == str("reactjs"):
+        print ("Tu es un développeur mobile.")
     else :
-        print ("Tu n'est pas développeur.")
+        print ("Un jour, je serai le meilleur développeur...")
  
 #Déclaration des variables : 
     
@@ -28,4 +30,5 @@ def lang (langage):
 lang("JavaScript")
 lang("python")
 lang("java")
+lang("reactjs")
 lang("salut")
